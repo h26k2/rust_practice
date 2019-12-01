@@ -1,59 +1,33 @@
 
-mod one;
-mod two;
-mod three;
-mod four;
-mod five;
-mod six;
-mod seven;
-mod eight;
-mod nine;
-mod ten;
+mod stars;
 mod formatting;
 
 fn main(){
 
-    formatting::print_hero_stars("Program by : h26k2");
+    //First Star
+    
+    formatting::print_hero_stars("FIRST STAR");
+    stars::right_angle_triangle();
 
-    //Task 1
-    formatting::print_hero_stars("Output of Task-1");
-    one::string_operation();
+    //Second Star
 
-    //Task 2
-    formatting::print_hero_stars("Output of Task-2");
-    two::integer_init();
+    formatting::print_hero_stars("SECOND STAR");
+    stars::right_angle_trianle_reverse();
 
-    //Task 3
-    formatting::print_hero_stars("Output of Task-3");
-    three::float_init();
+    //Third Star
 
-    //Task 4
-    formatting::print_hero_stars("Output of Task-4");
-    four::arithmetic_operations();
+    formatting::print_hero_stars("THIRD STAR");
+    stars::left_angle_triangle();
 
-    //Task 5
-    formatting::print_hero_stars("Output of Task-5");
-    five::array_task();
+    //Fourth Star
 
-    //Task 6
-    formatting::print_hero_stars("Output of Task-6");
-    six::tuple_init();
+    formatting::print_hero_stars("FOURTH STAR");
+    stars::left_angle_triangle_reverse();
 
-    //Task 7
-    formatting::print_hero_stars("Output of Task-7");
-    println!("value of pie is : {}",seven::return_pie());
+    //Fifth Star
 
-    // Task 8
-    formatting::print_hero_stars("Output of Task-8");
-    eight::leap_year(2020);
-
-    //Task 9
-    formatting::print_hero_stars("Output of Task-9");
-    nine::even_num(1,20);
-
-    //Task 10
-    formatting::print_hero_stars("Output of Task-10");
-    ten::fib_series(5);
+    formatting::print_hero_stars("FIFTH STAR");
+    stars::triangle();
 
 }
 
